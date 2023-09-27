@@ -13,7 +13,7 @@ struct ContentView: View {
     }
 }
 
-struc
+#Preview {
     ContentView()
         .environmentObject(ModelData())
 }

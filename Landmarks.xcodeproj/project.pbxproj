@@ -32,6 +32,9 @@
 		5B70304F2AC3D002003B379D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB880A2AC0D44C00E349D7 /* ModelData.swift */; };
 		5B7030502AC3D002003B379D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB88112AC0D74D00E349D7 /* LandmarkList.swift */; };
 		5B7030522AC3D07F003B379D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7030512AC3D07F003B379D /* LandmarkDetail.swift */; };
+		5B7030542AC4EE08003B379D /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7030532AC4EE08003B379D /* NotificationView.swift */; };
+		5B7030562AC4EF58003B379D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7030552AC4EF58003B379D /* NotificationController.swift */; };
+		5B7030582AC4F12A003B379D /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 5B7030572AC4F12A003B379D /* PushNotificationPayload.apns */; };
 		5BCB87D22AC0C81300E349D7 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB87D12AC0C81300E349D7 /* LandmarksApp.swift */; };
 		5BCB87D42AC0C81300E349D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB87D32AC0C81300E349D7 /* ContentView.swift */; };
 		5BCB87D62AC0C81500E349D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB87D52AC0C81500E349D7 /* Assets.xcassets */; };
@@ -136,6 +139,9 @@
 		5B7030342AC3CE94003B379D /* WatchLandmarks_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarks_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		5B7030362AC3CE94003B379D /* WatchLandmarks_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarks_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B7030512AC3D07F003B379D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		5B7030532AC4EE08003B379D /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5B7030552AC4EF58003B379D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5B7030572AC4F12A003B379D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		5BCB87CE2AC0C81300E349D7 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCB87D12AC0C81300E349D7 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		5BCB87D32AC0C81300E349D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -239,6 +245,9 @@
 				5B7030512AC3D07F003B379D /* LandmarkDetail.swift */,
 				5B70301D2AC3CE92003B379D /* Assets.xcassets */,
 				5B70301F2AC3CE92003B379D /* Preview Content */,
+				5B7030532AC4EE08003B379D /* NotificationView.swift */,
+				5B7030552AC4EF58003B379D /* NotificationController.swift */,
+				5B7030572AC4F12A003B379D /* PushNotificationPayload.apns */,
 			);
 			path = "WatchLandmarks Watch App";
 			sourceTree = "<group>";
@@ -609,6 +618,7 @@
 				5B70304A2AC3D002003B379D /* Assets.xcassets in Resources */,
 				5B70304C2AC3D002003B379D /* landmarkData.json in Resources */,
 				5B70301E2AC3CE92003B379D /* Assets.xcassets in Resources */,
+				5B7030582AC4F12A003B379D /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,8 +677,10 @@
 				5B70304D2AC3D002003B379D /* LandmarkRow.swift in Sources */,
 				5B70304E2AC3D002003B379D /* Hike.swift in Sources */,
 				5B7030492AC3D002003B379D /* Landmark.swift in Sources */,
+				5B7030562AC4EF58003B379D /* NotificationController.swift in Sources */,
 				5B7030502AC3D002003B379D /* LandmarkList.swift in Sources */,
 				5B7030522AC3D07F003B379D /* LandmarkDetail.swift in Sources */,
+				5B7030542AC4EE08003B379D /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

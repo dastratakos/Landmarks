@@ -21,7 +21,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var category: Category
     enum Category: String, CaseIterable, Codable {
         case lakes = "Lakes"
-        case rivesr = "Rivers"
+        case rivers = "Rivers"
         case mountains = "Mountains"
     }
     

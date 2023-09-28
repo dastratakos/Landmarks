@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  Landmarks
+//  WatchLandmarks Watch App
 //
-//  Created by Dean Stratakos on 9/24/23.
+//  Created by Dean Stratakos on 9/27/23.
 //
 
 import SwiftUI
@@ -33,7 +33,6 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }

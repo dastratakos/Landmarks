@@ -54,6 +54,7 @@
 		5B7030922AC4F5D0003B379D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB880F2AC0D57C00E349D7 /* LandmarkRow.swift */; };
 		5B7030932AC4F5D0003B379D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB88112AC0D74D00E349D7 /* LandmarkList.swift */; };
 		5B7030942AC4F5D0003B379D /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB88272AC0FF7200E349D7 /* Hike.swift */; };
+		5B7030962AC4F81A003B379D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7030952AC4F81A003B379D /* LandmarkDetail.swift */; };
 		5BCB87D22AC0C81300E349D7 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB87D12AC0C81300E349D7 /* LandmarksApp.swift */; };
 		5BCB87D42AC0C81300E349D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB87D32AC0C81300E349D7 /* ContentView.swift */; };
 		5BCB87D62AC0C81500E349D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB87D52AC0C81500E349D7 /* Assets.xcassets */; };
@@ -185,6 +186,7 @@
 		5B7030772AC4F532003B379D /* MacLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B70307B2AC4F532003B379D /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		5B70307D2AC4F532003B379D /* MacLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B7030952AC4F81A003B379D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		5BCB87CE2AC0C81300E349D7 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCB87D12AC0C81300E349D7 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		5BCB87D32AC0C81300E349D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 				5B7030632AC4F530003B379D /* Assets.xcassets */,
 				5B7030682AC4F530003B379D /* MacLandmarks.entitlements */,
 				5B7030652AC4F530003B379D /* Preview Content */,
+				5B7030952AC4F81A003B379D /* LandmarkDetail.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -908,6 +911,7 @@
 				5B70308F2AC4F5D0003B379D /* MapView.swift in Sources */,
 				5B70308E2AC4F5D0003B379D /* Profile.swift in Sources */,
 				5B7030912AC4F5D0003B379D /* LandmarksApp.swift in Sources */,
+				5B7030962AC4F81A003B379D /* LandmarkDetail.swift in Sources */,
 				5B7030942AC4F5D0003B379D /* Hike.swift in Sources */,
 				5B7030892AC4F5D0003B379D /* ModelData.swift in Sources */,
 				5B7030902AC4F5D0003B379D /* FavoriteButton.swift in Sources */,
